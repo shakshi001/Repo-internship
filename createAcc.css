@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+
+}
+#head{
+    height: 8vh;
+    width: 100%;
+    background-color:rgba(8, 242, 8, 0.435);
+    border:1px solid transparent;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    color:rgba(0, 128, 0, 0.781);
+}
+#create-acc{
+    height: 90vh;
+    width:100%;
+    background-color: #fff;
+    display: flex;
+}
+#box-left{
+    height: 90vh;
+    width: 45vw;
+    background-color: #fff;
+    position: relative;
+}
+.heading{
+    position: absolute;
+    top:3rem;
+    left:1rem;
+    font-size:3rem ;
+    font-weight: 600;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:9rem;
+    right: 12rem;
+
+}
+#Info{
+    height: 8vh;
+    width: 59vh;
+    /* background-color: aqua; */
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: row;
+}
+#Info input{
+    height: 3rem;
+    width: 19rem;
+    background-color: rgba(128, 128, 128, 0.184);
+    color:gray;
+    border:1px soild transparent;
+    border-radius: 7px;
+    /* background-color: aqua; */
+    position: relative;
+    bottom: -16px;
+
+}
+#password{
+    height: 10rem;
+    width: 23rem;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-bottom: 1px;
+}
+ .box{
+    height: 3rem;
+    width: 19rem;
+    background-color: rgba(128, 128, 128, 0.184);
+    color:gray;
+    border:1px soild transparent;
+    border-radius: 7px;
+    
+}
+#btn1{
+    height: 4rem;
+    width:23rem ;
+    background-color: rgba(16, 16, 209, 0.873);
+    color: white;
+    margin: 3rem;
+    border: 1px solid transparent;
+    border-radius:30px ;
+    font-size: 2rem;
+}
+#button{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    position: relative;
+    position: relative;
+    top:8rem;
+    right:1rem;   
+}
+.btnA{
+    height: 3rem;
+    width:42rem ;
+    background-color: #fff;
+    color:rgba(0, 0, 0, 0.478);
+    border:1px solid rgba(128, 128, 128, 0.39) ;
+    border-radius: 20px;
+    font-size: 2rem;
+}
+.btnB{
+    height: 3rem;
+    width:42rem ;
+    background-color: #fff;
+    color:rgba(0, 0, 0, 0.478);
+    border:1px solid rgba(128, 128, 128, 0.448) ;
+    border-radius: 20px;
+    font-size: 2rem;
+    margin-top:10px
+
+}
+#box-right{
+    height: 90vh;
+    width: 55vw;
+    background-color: #fff;
+    position: relative;
+    background-image: url('createimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+}
+.text2 {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 4px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
