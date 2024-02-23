@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+}
+
+/* navbar */
+#navbar {
+    height: 10vh;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid purple;
+    cursor: pointer;
+}
+
+#navbar img {
+    margin-left: 50px;
+    padding: 10px;
+}
+
+#container {
+    height: 3rem;
+    width: 30rem;
+    margin: 10px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.098);
+    padding: 0px 30px;
+    position: relative;
+
+}
+
+#navbar input {
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 25rem;
+    position: absolute;
+    top: 12px;
+    left: 40px;
+}
+
+#icon {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+#navbar ::placeholder {
+    position: absolute;
+    color: black;
+    font-weight: 900;
+}
+
+#element {
+    height: 4rem;
+    width: 10rem;
+    /* background-color: red; */
+    margin: 6px 40px;
+    display: flex;
+}
+
+.element-text {
+    color: blue;
+    font-style: bold;
+    font-weight: 500;
+
+}
+
+
+/* home */
+
+#home {
+    height: 60vh;
+    width: 100vw;
+    background-image: url("homeimg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#navhead {
+    position: absolute;
+    bottom: 10rem;
+    left: 10rem;
+    color: #fff;
+}
+
+.hometext {
+    position: absolute;
+    bottom: 8rem;
+    left: 10rem;
+    color: #fff;
+    opacity: 50%;
+}
+
+/*navbar2 */
+
+#navbar2 {
+    height: 10vh;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navtext {
+    font-size: 1.5rem;
+    color: grey;
+    opacity: 50%;
+}
+
+.btn1 {
+    height: 2rem;
+    width: 9rem;
+    background-color: rgba(128, 128, 128, 0.096);
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+.btn1:hover {
+    background-color: rgba(128, 128, 128, 0.315);
+}
+
+.btn2 {
+    height: 2rem;
+    width: 9rem;
+    background-color: rgba(0, 0, 255, 0.558);
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+.btn2:hover {
+    background-color: rgba(0, 0, 255, 0.729);
+}
+
+/* scrollbar */
+
+#scrollbar {
+    height: 300vh;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid black;
+    position: relative;
+}
+/* post1 */
+.post1 {
+    height: 65vh;
+    width: 70%;
+    background-color: rgba(128, 128, 128, 0.196);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    border: 4px solid transparent;
+    border-radius: 10px;
+
+}
+
+.post1:hover {
+    border: 4px solid rgba(128, 128, 128, 0.67);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.post-img {
+    height: 25vh;
+    width: 100%;
+    background-image: url("natureimg.png");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#msg {
+    height: 25vh;
+    width: 100%;
+    position: relative;
+    border: 4px solid transparent;
+    border-radius: 10px;
+}
+
+#para1 {
+    color: black;
+    font-weight: 600;
+    position: absolute;
+    left: 20px;
+}
+
+#heading1 {
+    color: black;
+    position: absolute;
+    top: 2rem;
+    left: 40px;
+}
+
+#para2 {
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    color: rgba(128, 128, 128, 0.411);
+}
+
+#userid {
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile {
+    height: 50px;
+    width: 50px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-image: url("profile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 40px;
+}
+
+#head {
+    color: black;
+    position: absolute;
+    left: 120px;
+}
+
+#userid p {
+    color: rgba(128, 128, 128, 0.417);
+    position: absolute;
+    right: 120px
+}
+
+#eye {
+    color: rgba(128, 128, 128, 0.35);
+    position: absolute;
+    right: 230px;
+}
+
+#share {
+    color: rgba(128, 128, 128, 0.447);
+    position: absolute;
+    right: 40px;
+}
+
+#dots {
+    position: absolute;
+    right: 10px;
+}
+
+.post2 {
+    height: 65vh;
+    width: 70%;
+    background-color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    border: 4px solid transparent;
+    border-radius: 10px;
+
+}
+
+.post2:hover {
+    border: 4px solid rgba(128, 128, 128, 0.67);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* post2 */
+.post2{
+    height:65vh ;
+    width: 70%;
+    background-color: rgba(128, 128, 128, 0.196);
+    position: relative;
+    top: 35rem;
+    left: 1rem;
+    border: 4px solid transparent;
+    border-radius: 10px;
+}
+.post2:hover {
+    border: 4px solid rgba(128, 128, 128, 0.67);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.post-img2 {
+    height: 25vh;
+    width: 100%;
+    background-image: url("tax.png");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#msg1 {
+    height: 25vh;
+    width: 100%;
+    position: relative;
+    border: 4px solid transparent;
+    border-radius: 10px;
+}   
+#paraA {
+    color: black;
+    font-weight: 600;
+    position: absolute;
+    left: 18px;
+}
+#heading2 {
+    color: black;
+    position: absolute;
+    top: 1rem;
+    left: 40px;
+}
+
+#paraB {
+    position: absolute;
+    top: 10rem;
+    left: 40px;
+    color: rgba(128, 128, 128, 0.411);
+}
+#profile1 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-image: url("profile1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 40px;
+}
+/* post3 */
+
+.post3{
+    height:65vh ;
+    width: 70%;
+    background-color: rgba(128, 128, 128, 0.196);
+    position: relative;
+    top: 37rem;
+    left: 1rem;
+    border: 4px solid transparent;
+    border-radius: 10px;
+}
+.post3:hover {
+    border: 4px solid rgba(128, 128, 128, 0.67);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.post-img3 {
+    height: 25vh;
+    width: 100%;
+    background-image: url("car1.png");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#paraC {
+    color: black;
+    font-weight: 600;
+    position: absolute;
+    top:15rem;
+    left: 20px;
+}
+#heading3{
+    position: absolute;
+    top:13rem;
+}
+.calender{
+    position: absolute;
+    top:18rem;
+}
+.location{
+    position: absolute;
+    top:18rem;
+    right:3rem;
+
+}
+.btn3{
+    height: 25px;
+    width: 90%;
+    position: absolute;
+    top:20rem;
+    left:4rem;
+    font-size: 20px;
+    font-weight: 500;
+    background-color:#fff ;
+    color: red;
+    border:1px solid transparent;
+    border-radius: 10px;
+}
+#userid1 {
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    top:13rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile2 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-image: url("profile1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 40px;
+}
+#head1 {
+    color: black;
+    position: absolute;
+    left:120px;
+}
+.views{
+    position: absolute;
+    right:8rem;
+    top:1.66rem;
+}
+/* post4 */
+#post4{
+    height: 35vh;
+    width: 70vw;
+    position: relative;
+    top:17rem;
+    background-color: rgba(128, 128, 128, 0.26);
+    border:4px  solid transparent;
+    border-radius: 10px;
+
+}
+#post4:hover {
+    border: 4px solid rgba(128, 128, 128, 0.67);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.job{
+    position: absolute;
+    top:2rem;
+    border:1px solid transparent;
+    left:1rem;
+}
+.heading4{
+    position: absolute;
+    top:5rem;
+    left:1rem;
+}
+.bag{
+    position: absolute;
+    top:8rem;
+    left:2rem;
+}
+.loc{
+    position: absolute;
+    top: 8rem;
+    right: 2rem;
+}
+.btn4{
+    position: absolute;
+    bottom: 4rem;
+    left: 3rem;
+    height: 25px;
+    width: 90%;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    background-color:#fff ;
+    color: rgba(0, 128, 0, 0.632);
+    border:1px solid rgba(128, 128, 128, 0.312);
+    border-radius: 10px;
+}
